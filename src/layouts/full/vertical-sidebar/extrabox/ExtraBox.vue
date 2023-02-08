@@ -7,7 +7,7 @@ import { PowerIcon } from 'vue-tabler-icons';
         <div class="d-flex align-center">
             <div class="pr-1">
                 <h6 class="text-h6 text-10 mb-2">Unlimited Access</h6>
-                <v-btn href="https://adminmart.com/product/modernize-react-mui-dashboard-template/" target="_blank"  size="small" color="primary" flat>Upgrade</v-btn>
+                <v-btn to="/" size="small" color="primary" flat>Upgrade</v-btn>
             </div>
             <div class="mt-n7 ml-2">
                 <img src="@/assets/images/background/rocket.png" />

@@ -57,9 +57,7 @@ const sDrawer = ref(true);
             </div>
             <div>
                 <!-- Upgrade button -->
-                <v-btn class="mr-2 bg-primary"
-                    href="https://adminmart.com/product/modernize-react-mui-dashboard-template/" target="_blank">Upgrade
-                    to Pro</v-btn>
+                <v-btn class="mr-2 bg-primary" href="https://adminmart.com/templates/vuejs/?product_sortby=free" target="_blank">Download Free</v-btn>
                 <!-- User Profile -->
                 <ProfileDD />
             </div>
