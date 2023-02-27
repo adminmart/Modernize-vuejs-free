@@ -111,6 +111,22 @@ npm run build
   Documentation Provided
   </td>
 </tr>
+<tr>
+  <td>
+  SCSS Base CSS
+  </td>
+  <td>
+  SCSS Base CSS
+  </td>
+</tr>
+<tr>
+  <td>
+  Easy To Customize
+  </td>
+  <td>
+  Easy To Customize
+  </td>
+</tr>
 </tbody>
 </table>
 
