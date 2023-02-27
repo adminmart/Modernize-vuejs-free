@@ -120,9 +120,22 @@ npm run build
 </a>
 <p>
   Checkout our premium version of Modernize Vue Admin Lite for lots more features and ready to use page templates.<br>
-  <a href="https://modernize-vuejs.adminmart.com/?ref=5">Check Live Preview</a> | <a href="https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?ref=5">Download</a>
+  <a href="https://modernize-vuejs.adminmart.com/?ref=5">Check Live Preview</a> | <a href="https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?         ref=5">Download</a>
 </p>
 
+
+<!-- Useful Links of Template -->
+# Useful Links
+- <p><a href="">Admin Theme</a> from Adminmart</p>
+- <p><a href="https://adminmart.com/product/modernize-bootstrap-5-admin-template/?ref=5">Bootstrap Themes</a> from Adminmart</p>
+- <p><a href="https://adminmart.com/product/modernize-free-bootstrap-5-admin-template/?ref=5">Free Bootstrap Admin Templates</a> from Adminmart</p>
+- <p><a href="https://adminmart.com/product/modernize-react-mui-dashboard-theme/?ref=5">React Bootstrap Template</a> from Adminmart</p>
+- <p><a href="https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?ref=5">Vuejs Templates</a> from Adminmart</p>
+
+
+<!-- Licensing of Template -->
+# Licensing
+- <p>Copyright 2023 Adminmart <a href="https://adminmart.com/?ref=5">https://adminmart.com/</a></p>
 
 <!-- Social Media of Adminmart -->
 # Social Media 👭🏼
