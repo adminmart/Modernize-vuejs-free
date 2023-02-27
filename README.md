@@ -140,6 +140,10 @@ npm run build
 
 <!-- Social Media of Adminmart -->
 # Social Media 👭🏼
-- <p>Facebook: <a href="https://www.facebook.com/wrappixel">https://www.facebook.com/wrappixel</a></p>
-- <p>Twitter: <a href="https://twitter.com/wrappixel">https://twitter.com/wrappixel</a></p>
-- <p>Medium: <a href="https://medium.com/wrappixel">https://medium.com/wrappixel</a></p>
+- <p>Facebook: <a href="https://www.facebook.com/official.adminmart/?ref=5">https://www.facebook.com/official.adminmart</a></p>
+- <p>Linkedin: <a href="https://www.linkedin.com/in/admin-mart-5ba892249/?ref=5">https://www.linkedin.com/in/admin-mart-5ba892249/</a></p>
+- <p>Github: <a href="https://github.com/adminmart/?ref=5">https://github.com/adminmart</a></p>
+- <p>Instagram: <a href="https://www.instagram.com/adminmart.official/?ref=5">https://www.instagram.com/adminmart.official/</a></p>
+- <p>Quora: <a href="https://www.quora.com/profile/Adminmart/?ref=5">https://www.quora.com/profile/Adminmart</a></p>
+- <p>Stack-Overflow: <a href="https://stackoverflow.com/users/20055119/adminmart/?ref=5">https://stackoverflow.com/users/20055119/adminmart</a></p>
+- <p>Reddit: <a href="https://www.reddit.com/user/adminmart/?ref=5">https://www.reddit.com/user/adminmart</a></p>
