@@ -41,18 +41,18 @@ npm run build
 <tbody>
 <tr>
   <td>
-  Live Preview
+    <a href="https://modernize-vue3-free.netlify.app/?ref=5">Live Preview</a>
   </td>
   <td>
-  Live Preview
+  <a href="https://modernize-vuejs.adminmart.com/?ref=5">Live Preview</a>
   </td>
 </tr>
 <tr>
   <td>
-  Download Now
+    <a href="https://adminmart.com/product/modernize-free-vuetify-vue-js-admin-dashboard/?ref=5">Download Now</a>
   </td>
   <td>
-  Purchase Now
+    <a href="https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?ref=5">Purchase Now</a>
   </td>
 </tr>
 <tr>
