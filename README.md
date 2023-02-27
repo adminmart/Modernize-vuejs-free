@@ -176,7 +176,7 @@ npm run build
 </a>
 <p>
   Checkout our premium version of Modernize Vue Admin Lite for lots more features and ready to use page templates.<br>
-  <a href="https://modernize-vuejs.adminmart.com/?ref=5">Check Live Preview</a> | <a href="https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?         ref=5">Download</a>
+  <a href="https://modernize-vuejs.adminmart.com/?ref=5">Check Live Preview</a> | <a href="https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?       ref=5">Download</a>
 </p>
 
 
