@@ -28,3 +28,55 @@ npm run dev
 ```
 npm run build
 ```
+
+# Compare with Premium Version 🌓
+
+<table>
+<thead>
+<tr>
+<th>Modernize Vuejs Free Version</th>
+<th>Modernize Vuejs Pro Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>
+  Live Preview
+  </td>
+  <td>
+  Live Preview
+  </td>
+</tr>
+<tr>
+  <td>
+  Download Now
+  </td>
+  <td>
+  Purchase Now
+  </td>
+</tr>
+<tr>
+  <td>
+  1 Basic Dashboard
+  </td>
+  <td>
+  2+ Stunning Dashboards
+  </td>
+</tr>
+<tr>
+  <td>
+  -
+  </td>
+  <td>
+  Dashboard Figma Files
+  </td>
+</tr>
+</tbody>
+</table>
+
+
+<!-- Social Media of Adminmart -->
+# Social Media 👭🏼
+- <p>Facebook: <a href="https://www.facebook.com/wrappixel">https://www.facebook.com/wrappixel</a></p>
+- <p>Twitter: <a href="https://twitter.com/wrappixel">https://twitter.com/wrappixel</a></p>
+- <p>Medium: <a href="https://medium.com/wrappixel">https://medium.com/wrappixel</a></p>
