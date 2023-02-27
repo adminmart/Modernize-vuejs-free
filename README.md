@@ -71,6 +71,46 @@ npm run build
   Dashboard Figma Files
   </td>
 </tr>
+<tr>
+  <td>
+  Vuetify 3
+  </td>
+  <td>
+  Vuetify 3
+  </td>
+</tr>
+<tr>
+  <td>
+  Fully Responsive Pages
+  </td>
+  <td>
+  Fully Responsive Pages
+  </td>
+</tr>
+<tr>
+  <td>
+  7+ Pages Template
+  </td>
+  <td>
+  50+ Page Templates
+  </td>
+</tr>
+<tr>
+  <td>
+  5+ UI Components
+  </td>
+  <td>
+  45+ UI Components
+  </td>
+</tr>
+<tr>
+  <td>
+  No Documentation
+  </td>
+  <td>
+  Documentation Provided
+  </td>
+</tr>
 </tbody>
 </table>
 
