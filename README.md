@@ -126,7 +126,7 @@ npm run build
 
 <!-- Useful Links of Template -->
 # Useful Links
-- <p><a href="">Admin Theme</a> from Adminmart</p>
+- <p><a href="https://adminmart.com/?ref=5">Admin Theme</a> from Adminmart</p>
 - <p><a href="https://adminmart.com/product/modernize-bootstrap-5-admin-template/?ref=5">Bootstrap Themes</a> from Adminmart</p>
 - <p><a href="https://adminmart.com/product/modernize-free-bootstrap-5-admin-template/?ref=5">Free Bootstrap Admin Templates</a> from Adminmart</p>
 - <p><a href="https://adminmart.com/product/modernize-react-mui-dashboard-theme/?ref=5">React Bootstrap Template</a> from Adminmart</p>
@@ -136,6 +136,7 @@ npm run build
 <!-- Licensing of Template -->
 # Licensing
 - <p>Copyright 2023 Adminmart <a href="https://adminmart.com/?ref=5">https://adminmart.com/</a></p>
+- <p>Licensed under MIT <a href="https://adminmart.com/license/?ref=5">https://adminmart.com/license/</a></p>
 
 <!-- Social Media of Adminmart -->
 # Social Media 👭🏼
