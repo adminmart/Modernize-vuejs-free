@@ -3,7 +3,7 @@ Modernize vue3 + vite + typescript +vuetify 3 admin Template
 
 <!-- Main image of Template -->
 <a target="_blank" href="https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?ref=5">
-  <img src="https://adminmart.com/wp-content/uploads/2023/02/modernize-free-vuetify-admin-dashboard-am.png" />
+  <img src="https://adminmart.com/wp-content/uploads/2023/02/modernize-free-vuetify-admin-dashboard-am-min1.png" />
 </a>
 
 
@@ -44,7 +44,7 @@ npm run build
     <a href="https://modernize-vue3-free.netlify.app/?ref=5">Live Preview</a>
   </td>
   <td>
-  <a href="https://modernize-vuejs.adminmart.com/?ref=5">Live Preview</a>
+  <a href="https://modernize-vuejs.adminmart.com/dashboards/modern">Live Preview</a>
   </td>
 </tr>
 <tr>
@@ -136,27 +136,27 @@ npm run build
 <table>
 <thead>
 <tr>
-<th>Bootstrap</th>
+<th>Vue Js</th>
 <th>React</th>
-<th>Vue</th>
+<th>Angular</th>
 <th>Nuxt Js</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-  <a href="https://adminmart.com/product/modernize-bootstrap-5-admin-template/?ref=5" rel="nofollow" width="150px">
-    <img src="https://adminmart.com/wp-content/uploads/2023/02/modernize-bootstrap-5-admin-template.png" alt="" style="max-width:150px;">
+  <a href="https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?ref=5" rel="nofollow" width="150px">
+    <img src="https://adminmart.com/wp-content/uploads/2023/02/modernize-vuetify-admin-dashboard-min.png" alt="" style="max-width:150px;">
   </a>
 </td>
 <td>
   <a href="https://adminmart.com/product/modernize-react-mui-dashboard-theme/?ref=5" rel="nofollow" width="150px">
-    <img src="https://adminmart.com/wp-content/uploads/2023/01/image_2023_01_26T10_19_25_019Z.png" alt="" style="max-width:150px;">
+    <img src="https://adminmart.com/wp-content/uploads/2023/01/image_2023_01_26T10_19_25_019Z-min.png" alt="" style="max-width:150px;">
   </a>
 </td>
 <td>
-  <a href="https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?ref=5" rel="nofollow" width="150px">
-    <img src="https://adminmart.com/wp-content/uploads/2023/02/modernize-vuetify-admin-dashboard.png" alt="" style="max-width:150px;">
+  <a href="https://adminmart.com/product/modernize-angular-material-dashboard/?ref=5" rel="nofollow" width="150px">
+    <img src="https://adminmart.com/wp-content/uploads/2023/04/modernize-angular-material-admin-dashboard-template-1-1.jpg" alt="" style="max-width:150px;">
   </a>
 </td>
   <td>
@@ -170,12 +170,12 @@ npm run build
 
 # Upgrade to Premium version
 
-<a target="_blank" href="https://modernize-vuejs.adminmart.com/?ref=5">
-  <img src="https://adminmart.com/wp-content/uploads/2023/02/modernize-vuetify-admin-dashboard.png" alt="">
+<a target="_blank" href="https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?ref=5">
+  <img src="https://adminmart.com/wp-content/uploads/2023/02/modernize-vuetify-admin-dashboard-min.png" alt="">
 </a>
 <p>
   Checkout our premium version of Modernize Vue Admin Lite for lots more features and ready to use page templates.<br>
-<a href="https://modernize-vuejs.adminmart.com/?ref=5">Check Live Preview</a> | <a href="https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?    ref=5">Download</a>
+<a href="https://modernize-vuejs.adminmart.com/dashboards/modern">Check Live Preview</a> | <a href="https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?    ref=5">Download</a>
 </p>
 
 
