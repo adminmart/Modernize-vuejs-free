@@ -6,17 +6,18 @@ import NavItem from './vertical-sidebar/NavItem/index.vue';
 import ExtraBox from './vertical-sidebar/extrabox/ExtraBox.vue';
 import Logo from './logo/Logo.vue';
 // Icon Imports
-import { Menu2Icon, BellRingingIcon } from 'vue-tabler-icons';
+import { Menu2Icon} from 'vue-tabler-icons';
 // dropdown imports
 import NotificationDD from './vertical-header/NotificationDD.vue';
 import ProfileDD from './vertical-header/ProfileDD.vue';
+import NavCollapse from './vertical-sidebar/NavCollapse/NavCollapse.vue';
 const sidebarMenu = shallowRef(sidebarItems);
 const sDrawer = ref(true);
 </script>
 
 <template>
     <!------Sidebar-------->
-    <v-navigation-drawer left elevation="0"  app class="leftSidebar"  v-model="sDrawer">
+    <v-navigation-drawer left elevation="0"  app class="leftSidebar" :width="270"  v-model="sDrawer">
         <!---Logo part -->
         <div class="pa-5">
             <Logo />
@@ -32,6 +33,7 @@ const sDrawer = ref(true);
                     <!---Item Sub Header -->
                     <NavGroup :item="item" v-if="item.header" :key="item.title" />
 
+                    <NavCollapse class="leftPadding" :item="item" :level="0" v-else-if="item.children" />
                     <!---Single Item-->
                     <NavItem :item="item" v-else class="leftPadding" />
                     <!---End Single Item-->
@@ -45,7 +47,7 @@ const sDrawer = ref(true);
 
     </v-navigation-drawer>
     <!------Header-------->
-    <v-app-bar elevation="0" height="70">
+    <v-app-bar elevation="0" height="70" class="top-header" >
         <div class="d-flex align-center justify-space-between w-100">
             <div>
                 <v-btn class="hidden-lg-and-up ms-md-3 ms-sm-5 ms-3 text-muted" @click="sDrawer = !sDrawer" icon variant="flat"
@@ -57,7 +59,7 @@ const sDrawer = ref(true);
             </div>
             <div>
                 <!-- Upgrade button -->
-                <v-btn class="mr-2 bg-primary" href="https://adminmart.com/templates/vuejs/?product_sortby=free" target="_blank">Download Free</v-btn>
+                <v-btn class="mr-2 bg-primary" href="https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?ref=5" target="_blank">Check Pro Template</v-btn>
                 <!-- User Profile -->
                 <ProfileDD />
             </div>

@@ -60,10 +60,10 @@ const Chart = [38, 40, 25];
                         </div>
                         <div class="d-flex align-center mt-sm-10 mt-8">
                             <h6 class="text-subtitle-1 text-muted">
-                                <v-icon icon="mdi mdi-checkbox-blank-circle" class="mr-1" size="10" color="primary"></v-icon> 2022
+                                <v-icon icon="mdi mdi-checkbox-blank-circle" class="mr-1" size="10" color="primary"></v-icon> 2024
                             </h6>
                             <h6 class="text-subtitle-1 text-muted pl-5">
-                                <v-icon icon="mdi mdi-checkbox-blank-circle" class="mr-1" size="10" color="lightprimary"></v-icon> 2023
+                                <v-icon icon="mdi mdi-checkbox-blank-circle" class="mr-1" size="10" color="lightprimary"></v-icon> 2025
                             </h6>
                         </div>
                     </div>

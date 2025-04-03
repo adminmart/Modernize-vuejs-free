@@ -25,7 +25,6 @@ export type ThemeTypes = {
         surface?: string;
         'on-surface-variant'?: string;
         grey100?: string;
-        grey200?: string;
         muted?:string;
     };
 };

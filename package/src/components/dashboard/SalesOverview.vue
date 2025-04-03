@@ -5,8 +5,8 @@ import { useTheme } from 'vuetify';
 const theme = useTheme();
 const primary = theme.current.value.colors.primary;
 const secondary = theme.current.value.colors.secondary;
-const select = ref('March 2023');
-const items = ref(['March 2023', 'April 2023', 'May 2023']);
+const select = ref('March 2025');
+const items = ref(['March 2025', 'April 2025', 'May 2025']);
 const chartOptions = computed(() => {
     return {
 
@@ -25,7 +25,7 @@ const chartOptions = computed(() => {
                 },
             },
             plotOptions: {
-                bar: { horizontal: false, columnWidth: "35%", borderRadius: [8] },
+                bar: { horizontal: false, columnWidth: "40%", borderRadius: [8] },
             },
             colors: [primary, secondary],
             chart: {
@@ -60,7 +60,7 @@ const chartOptions = computed(() => {
             },
             stroke: {
                 show: true,
-                width: 3,
+                width:3,
                 lineCap: "butt",
                 colors: ["transparent"],
             },

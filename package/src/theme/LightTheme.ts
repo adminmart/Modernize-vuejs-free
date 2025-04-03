@@ -1,7 +1,7 @@
 import type { ThemeTypes } from '@/types/themeTypes/ThemeType';
 
-const PurpleTheme: ThemeTypes = {
-    name: 'PurpleTheme',
+const BlueTheme: ThemeTypes = {
+    name: 'BlueTheme',
     dark: false,
     variables: {
         'border-color': '#eeeeee',
@@ -30,7 +30,6 @@ const PurpleTheme: ThemeTypes = {
         surface: '#fff',
         'on-surface-variant': '#fff',
         grey100: '#F2F6FA',
-        grey200: '#EAEFF4'
     }
 };
-export { PurpleTheme};
+export { BlueTheme};
