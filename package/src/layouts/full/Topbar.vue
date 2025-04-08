@@ -16,18 +16,18 @@ const items = [
 ];
 
 const preview_link = [
+    { title: 'Vuejs Preview', url: 'https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?ref=56#product-demo-section' },
     { title: 'Bootstrap Preview', url: 'https://adminmart.com/product/modernize-bootstrap-5-admin-template/?ref=56#product-demo-section' },
     { title: 'Angular Preview', url: 'https://adminmart.com/product/modernize-angular-material-dashboard/?ref=56#product-demo-section' },
-    { title: 'Vuejs Preview', url: 'https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?ref=56#product-demo-section' },
     { title: 'Reactjs Preview', url: 'https://adminmart.com/product/modernize-react-mui-dashboard-theme/?ref=56#product-demo-section' },
     { title: 'Nextjs Preview', url: 'https://adminmart.com/product/modernize-tailwind-nextjs-dashboard-template/?ref=56#product-demo-section' },
     { title: 'Nuxtjs Preview', url: 'https://adminmart.com/product/modernize-nuxt-js-admin-dashboard/?ref=56#product-demo-section' }
 ];
 
 const buy_link = [
+    { title: 'Buy Vuejs Version', url: 'https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?ref=56#product-price-section' },
     { title: 'Buy Bootstrap Version', url: 'https://adminmart.com/product/modernize-bootstrap-5-admin-template/?ref=56#product-price-section' },
     { title: 'Buy Angular Version', url: 'https://adminmart.com/product/modernize-angular-material-dashboard/?ref=56#product-price-section' },
-    { title: 'Buy Vuejs Version', url: 'https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?ref=56#product-price-section' },
     { title: 'Buy Reactjs Version', url: 'https://adminmart.com/product/modernize-react-mui-dashboard-theme/?ref=56#product-price-section' },
     {
         title: 'Buy Nextjs Version',
