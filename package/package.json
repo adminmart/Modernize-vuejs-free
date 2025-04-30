@@ -1,5 +1,5 @@
 {
-    "name": "modernize",
+    "name": "modernize-vuejs-free",
     "version": "2.0.0",
     "type": "module",
     "scripts": {
@@ -17,7 +17,8 @@
         "vue-tabler-icons": "2.21.0",
         "vue3-apexcharts": "1.5.2",
         "vue3-perfect-scrollbar": "1.6.1",
-        "vuetify": "3.7.18"
+        "vuetify": "3.7.18",
+        "@iconify/vue": "4.3.0"
     },
     "devDependencies": {
         "@mdi/font": "7.4.47",

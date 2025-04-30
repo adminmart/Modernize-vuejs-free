@@ -1,5 +1,7 @@
 import {
     AlertCircleIcon,
+    AlertHexagonIcon,
+    AlignBoxBottomLeftIcon,
     ApertureIcon,
     AppsIcon,
     AppWindowIcon,
@@ -16,6 +18,7 @@ import {
     BoxModelIcon,
     BrandTidalIcon,
     CalendarIcon,
+    CardboardsIcon,
     ChartArcsIcon,
     ChartAreaIcon,
     ChartCandleIcon,
@@ -52,6 +55,7 @@ import {
     ShoppingCartIcon,
     SocialIcon,
     SortAscendingIcon,
+    TableIcon,
     TicketIcon,
     TypographyIcon,
     UserCircleIcon,
@@ -90,7 +94,7 @@ const sidebarItem: menu[] = [
         icon: ApertureIcon,
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         to: 'https://modernize-vuejs.adminmart.com/dashboards/modern',
         external: true
     },
@@ -99,7 +103,7 @@ const sidebarItem: menu[] = [
         icon: ShoppingCartIcon,
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         to: 'https://modernize-vuejs.adminmart.com/dashboards/ecommerce',
         external: true
     },
@@ -108,14 +112,14 @@ const sidebarItem: menu[] = [
         icon: AppWindowIcon,
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         to: '/',
         children: [
             {
                 title: 'Homepage',
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 icon: PointIcon,
                 to: 'https://modernize-vuejs.adminmart.com/front-page/homepage',
                 external: true
@@ -124,7 +128,7 @@ const sidebarItem: menu[] = [
                 title: 'About Us',
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 icon: PointIcon,
                 to: 'https://modernize-vuejs.adminmart.com/front-page/about-us',
                 external: true
@@ -133,7 +137,7 @@ const sidebarItem: menu[] = [
                 title: 'Blog',
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 icon: PointIcon,
                 to: 'https://modernize-vuejs.adminmart.com/front-page/blog/posts',
                 external: true
@@ -142,7 +146,7 @@ const sidebarItem: menu[] = [
                 title: 'Blog Details',
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 icon: PointIcon,
                 to: 'https://modernize-vuejs.adminmart.com/front-page/blog/early-black-friday-amazon-deals-cheap-tvs-headphones',
                 external: true
@@ -151,7 +155,7 @@ const sidebarItem: menu[] = [
                 title: 'Contact Us',
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 icon: PointIcon,
                 to: 'https://modernize-vuejs.adminmart.com/front-page/contact-us',
                 external: true
@@ -160,7 +164,7 @@ const sidebarItem: menu[] = [
                 title: 'Portfolio',
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 icon: PointIcon,
                 to: 'https://modernize-vuejs.adminmart.com/front-page/portfolio',
                 external: true
@@ -169,7 +173,7 @@ const sidebarItem: menu[] = [
                 title: 'Pricing',
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 icon: PointIcon,
                 to: 'https://modernize-vuejs.adminmart.com/front-page/pricing',
                 external: true
@@ -198,7 +202,7 @@ const sidebarItem: menu[] = [
         to: 'https://modernize-vuejs.adminmart.com/apps/contacts',
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         external: true
     },
 
@@ -207,7 +211,7 @@ const sidebarItem: menu[] = [
         icon: ChartDonut3Icon,
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         to: '/',
         children: [
             {
@@ -215,7 +219,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/apps/blog/posts',
                 external: true
             },
@@ -224,7 +228,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/apps/blog/early-black-friday-amazon-deals-cheap-tvs-headphones',
                 external: true
             }
@@ -236,14 +240,14 @@ const sidebarItem: menu[] = [
         to: '/ecommerce/',
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         children: [
             {
                 title: 'Shop',
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/ecommerce/products',
                 external: true
             },
@@ -252,7 +256,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/ecommerce/product/detail/1',
                 external: true
             },
@@ -261,7 +265,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/ecommerce/productlist',
                 external: true
             },
@@ -270,7 +274,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: '/ecommerce/checkout',
                 external: true
             },
@@ -279,7 +283,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/ecommerce/add-product',
                 external: true
             },
@@ -288,7 +292,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/ecommerce/edit-product',
                 external: true
             }
@@ -299,7 +303,7 @@ const sidebarItem: menu[] = [
         icon: UserCircleIcon,
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         to: '/',
         children: [
             {
@@ -307,7 +311,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/apps/user/profile',
                 external: true
             },
@@ -316,7 +320,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/apps/user/profile/followers',
                 external: true
             },
@@ -325,7 +329,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/apps/user/profile/friends',
                 external: true
             },
@@ -334,7 +338,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/apps/user/profile/gallery',
                 external: true
             }
@@ -345,7 +349,7 @@ const sidebarItem: menu[] = [
         icon: FileCheckIcon,
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         to: '/',
         children: [
             {
@@ -353,7 +357,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/apps/invoice',
                 external: true
             },
@@ -362,7 +366,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/apps/invoice/details/102',
                 external: true
             },
@@ -371,7 +375,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/apps/invoice/create',
                 external: true
             },
@@ -380,7 +384,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/apps/invoice/edit/102',
                 external: true
             }
@@ -391,7 +395,7 @@ const sidebarItem: menu[] = [
         icon: Message2Icon,
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         to: 'https://modernize-vuejs.adminmart.com/apps/chats',
         external: true
     },
@@ -401,7 +405,7 @@ const sidebarItem: menu[] = [
         icon: FilesIcon,
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         to: 'https://modernize-vuejs.adminmart.com/apps/notes',
         external: true
     },
@@ -410,7 +414,7 @@ const sidebarItem: menu[] = [
         icon: CalendarIcon,
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         to: 'https://modernize-vuejs.adminmart.com/apps/calendar',
         external: true
     },
@@ -419,7 +423,7 @@ const sidebarItem: menu[] = [
         icon: MailIcon,
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         to: 'https://modernize-vuejs.adminmart.com/apps/email',
         external: true
     },
@@ -428,7 +432,7 @@ const sidebarItem: menu[] = [
         icon: TicketIcon,
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         to: 'https://modernize-vuejs.adminmart.com/apps/tickets',
         external: true
     },
@@ -437,18 +441,24 @@ const sidebarItem: menu[] = [
         icon: LayoutKanbanIcon,
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         to: 'https://modernize-vuejs.adminmart.com/apps/kanban',
         external: true
     },
 
     { header: 'Pages' },
     {
+        title: 'Sample Page',
+        icon: ApertureIcon,
+        to: '/sample-page',
+        external: false
+    },
+    {
         title: 'Pages',
         icon: ChartDonut3Icon,
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         to: '/',
         children: [
             {
@@ -456,7 +466,7 @@ const sidebarItem: menu[] = [
                 icon: CurrencyDollarIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/pages/pricing',
                 external: true
             },
@@ -465,7 +475,7 @@ const sidebarItem: menu[] = [
                 icon: UserCircleIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/pages/account-settings',
                 external: true
             },
@@ -474,7 +484,7 @@ const sidebarItem: menu[] = [
                 icon: HelpIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/pages/faq',
                 external: true
             },
@@ -483,7 +493,7 @@ const sidebarItem: menu[] = [
                 icon: PhotoAiIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/pages/gallery-lightbox',
                 external: true
             },
@@ -492,7 +502,7 @@ const sidebarItem: menu[] = [
                 icon: SearchIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/pages/search-results',
                 external: true
             },
@@ -501,7 +511,7 @@ const sidebarItem: menu[] = [
                 icon: SocialIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/pages/social-media-contacts',
                 external: true
             },
@@ -510,7 +520,7 @@ const sidebarItem: menu[] = [
                 icon: BrandTidalIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/pages/treeview',
                 external: true
             }
@@ -522,7 +532,7 @@ const sidebarItem: menu[] = [
         icon: AppsIcon,
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         to: '/components/',
         children: [
             {
@@ -530,7 +540,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/forms/form-elements/autocomplete',
                 external: true
             },
@@ -539,7 +549,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/forms/form-elements/combobox',
                 external: true
             },
@@ -548,7 +558,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/forms/form-elements/button',
                 external: true
             },
@@ -557,7 +567,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/forms/form-elements/checkbox',
                 external: true
             },
@@ -566,7 +576,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/forms/form-elements/custominputs',
                 external: true
             },
@@ -575,7 +585,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/forms/form-elements/fileinputs',
                 external: true
             },
@@ -584,7 +594,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/forms/form-elements/radio',
                 external: true
             },
@@ -593,7 +603,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/forms/form-elements/date-time',
                 external: true
             },
@@ -602,7 +612,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/forms/form-elements/select',
                 external: true
             },
@@ -611,7 +621,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/forms/form-elements/slider',
                 external: true
             },
@@ -620,7 +630,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/forms/form-elements/switch',
                 external: true
             },
@@ -629,7 +639,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/forms/form-elements/time-picker',
                 external: true
             },
@@ -638,7 +648,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 to: 'https://modernize-vuejs.adminmart.com/forms/form-elements/stepper',
                 external: true
             }
@@ -649,7 +659,7 @@ const sidebarItem: menu[] = [
         icon: FileTextIcon,
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         to: 'https://modernize-vuejs.adminmart.com/forms/form-layouts',
         external: true
     },
@@ -658,7 +668,7 @@ const sidebarItem: menu[] = [
         icon: BoxAlignBottomIcon,
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         to: 'https://modernize-vuejs.adminmart.com/forms/form-horizontal',
         external: true
     },
@@ -667,7 +677,7 @@ const sidebarItem: menu[] = [
         icon: BoxAlignLeftIcon,
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         to: 'https://modernize-vuejs.adminmart.com/forms/form-vertical',
         external: true
     },
@@ -676,7 +686,7 @@ const sidebarItem: menu[] = [
         icon: FileDotsIcon,
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         to: 'https://modernize-vuejs.adminmart.com/forms/form-custom',
         external: true
     },
@@ -685,7 +695,7 @@ const sidebarItem: menu[] = [
         icon: FilesIcon,
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         to: 'https://modernize-vuejs.adminmart.com/forms/form-validation',
         external: true
     },
@@ -694,7 +704,7 @@ const sidebarItem: menu[] = [
         icon: EditIcon,
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         to: 'https://modernize-vuejs.adminmart.com/forms/editor',
         external: true
     },
@@ -706,7 +716,7 @@ const sidebarItem: menu[] = [
         to: 'https://modernize-vuejs.adminmart.com/tables/basic',
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         external: true
     },
     {
@@ -715,7 +725,7 @@ const sidebarItem: menu[] = [
         to: 'https://modernize-vuejs.adminmart.com/tables/dark',
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         external: true
     },
     {
@@ -724,7 +734,7 @@ const sidebarItem: menu[] = [
         to: 'https://modernize-vuejs.adminmart.com/tables/density',
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         external: true
     },
     {
@@ -733,7 +743,7 @@ const sidebarItem: menu[] = [
         to: 'https://modernize-vuejs.adminmart.com/tables/fixed-header',
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         external: true
     },
     {
@@ -742,7 +752,7 @@ const sidebarItem: menu[] = [
         to: 'https://modernize-vuejs.adminmart.com/tables/height',
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         external: true
     },
     {
@@ -751,7 +761,7 @@ const sidebarItem: menu[] = [
         to: 'https://modernize-vuejs.adminmart.com/tables/editable',
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         external: true
     },
     { header: 'Data Tables' },
@@ -760,7 +770,7 @@ const sidebarItem: menu[] = [
         icon: AppsIcon,
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         to: '/components/',
         children: [
             {
@@ -769,7 +779,7 @@ const sidebarItem: menu[] = [
                 to: 'https://modernize-vuejs.adminmart.com/tables/datatables/basic',
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 external: true
             },
             {
@@ -778,7 +788,7 @@ const sidebarItem: menu[] = [
                 to: 'https://modernize-vuejs.adminmart.com/tables/datatables/header',
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 external: true
             },
             {
@@ -787,7 +797,7 @@ const sidebarItem: menu[] = [
                 to: 'https://modernize-vuejs.adminmart.com/tables/datatables/selection',
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 external: true
             },
             {
@@ -796,7 +806,7 @@ const sidebarItem: menu[] = [
                 to: 'https://modernize-vuejs.adminmart.com/tables/datatables/sorting',
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 external: true
             },
             {
@@ -805,7 +815,7 @@ const sidebarItem: menu[] = [
                 to: 'https://modernize-vuejs.adminmart.com/tables/datatables/pagination',
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 external: true
             },
             {
@@ -814,7 +824,7 @@ const sidebarItem: menu[] = [
                 to: 'https://modernize-vuejs.adminmart.com/tables/datatables/filtering',
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 external: true
             },
             {
@@ -823,7 +833,7 @@ const sidebarItem: menu[] = [
                 to: 'https://modernize-vuejs.adminmart.com/tables/datatables/grouping',
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 external: true
             },
             {
@@ -832,7 +842,7 @@ const sidebarItem: menu[] = [
                 to: 'https://modernize-vuejs.adminmart.com/tables/datatables/slots',
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 external: true
             },
             {
@@ -841,7 +851,7 @@ const sidebarItem: menu[] = [
                 to: 'https://modernize-vuejs.adminmart.com/tables/datatables/crudtable',
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 external: true
             }
         ]
@@ -849,11 +859,31 @@ const sidebarItem: menu[] = [
 
     { header: 'UI' },
     {
+        title: 'Alert',
+        icon: AlertHexagonIcon,
+        to: '/ui/alerts'
+    },
+    {
+        title: 'Button',
+        icon: AlignBoxBottomLeftIcon,
+        to: '/ui/buttons'
+    },
+    {
+        title: 'Cards',
+        icon: CardboardsIcon,
+        to: '/ui/cards'
+    },
+    {
+        title: 'Tables',
+        icon: TableIcon,
+        to: '/ui/tables'
+    },
+    {
         title: 'UI Components',
         icon: BoxIcon,
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         to: '#',
         children: [
             {
@@ -861,7 +891,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 external: true,
                 to: 'https://modernize-vuejs.adminmart.com/ui-components/alert'
             },
@@ -870,7 +900,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 external: true,
                 to: 'https://modernize-vuejs.adminmart.com/ui-components/accordion'
             },
@@ -879,7 +909,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 external: true,
                 to: 'https://modernize-vuejs.adminmart.com/ui-components/avatar'
             },
@@ -888,7 +918,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 external: true,
                 to: 'https://modernize-vuejs.adminmart.com/ui-components/chip'
             },
@@ -897,7 +927,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 external: true,
                 to: 'https://modernize-vuejs.adminmart.com/ui-components/dialogs'
             },
@@ -906,7 +936,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 external: true,
                 to: 'https://modernize-vuejs.adminmart.com/ui-components/list'
             },
@@ -915,7 +945,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 external: true,
                 to: 'https://modernize-vuejs.adminmart.com/ui-components/menus'
             },
@@ -924,7 +954,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 external: true,
                 to: 'https://modernize-vuejs.adminmart.com/ui-components/rating'
             },
@@ -933,7 +963,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 external: true,
                 to: 'https://modernize-vuejs.adminmart.com/ui-components/tabs'
             },
@@ -942,7 +972,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 external: true,
                 to: 'https://modernize-vuejs.adminmart.com/ui-components/tooltip'
             },
@@ -951,7 +981,7 @@ const sidebarItem: menu[] = [
                 icon: PointIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 external: true,
                 to: 'https://modernize-vuejs.adminmart.com/ui-components/typography'
             }
@@ -965,7 +995,7 @@ const sidebarItem: menu[] = [
         to: 'https://modernize-vuejs.adminmart.com/charts/line-chart',
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         external: true
     },
     {
@@ -974,7 +1004,7 @@ const sidebarItem: menu[] = [
         to: 'https://modernize-vuejs.adminmart.com/charts/gredient-chart',
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         external: true
     },
     {
@@ -983,7 +1013,7 @@ const sidebarItem: menu[] = [
         to: 'https://modernize-vuejs.adminmart.com/charts/area-chart',
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         external: true
     },
     {
@@ -992,7 +1022,7 @@ const sidebarItem: menu[] = [
         to: 'https://modernize-vuejs.adminmart.com/charts/candlestick-chart',
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         external: true
     },
     {
@@ -1001,7 +1031,7 @@ const sidebarItem: menu[] = [
         to: 'https://modernize-vuejs.adminmart.com/charts/column-chart',
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         external: true
     },
     {
@@ -1010,7 +1040,7 @@ const sidebarItem: menu[] = [
         to: 'https://modernize-vuejs.adminmart.com/charts/doughnut-pie-chart',
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         external: true
     },
     {
@@ -1019,7 +1049,7 @@ const sidebarItem: menu[] = [
         to: 'https://modernize-vuejs.adminmart.com/charts/radialbar-chart',
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         external: true
     },
 
@@ -1041,7 +1071,7 @@ const sidebarItem: menu[] = [
         icon: UserShieldIcon,
         chip: 'Pro',
         chipColor: 'primary',
-       chipBgColor: 'lightprimary',
+        chipBgColor: 'lightprimary',
         to: '#',
         children: [
             {
@@ -1054,7 +1084,7 @@ const sidebarItem: menu[] = [
                         icon: PointIcon,
                         chip: 'Pro',
                         chipColor: 'primary',
-                       chipBgColor: 'lightprimary',
+                        chipBgColor: 'lightprimary',
                         external: true,
                         to: 'https://modernize-vuejs.adminmart.com/auth/login'
                     },
@@ -1063,7 +1093,7 @@ const sidebarItem: menu[] = [
                         icon: PointIcon,
                         chip: 'Pro',
                         chipColor: 'primary',
-                       chipBgColor: 'lightprimary',
+                        chipBgColor: 'lightprimary',
                         external: true,
                         to: 'https://modernize-vuejs.adminmart.com/auth/login2'
                     }
@@ -1079,7 +1109,7 @@ const sidebarItem: menu[] = [
                         icon: PointIcon,
                         chip: 'Pro',
                         chipColor: 'primary',
-                       chipBgColor: 'lightprimary',
+                        chipBgColor: 'lightprimary',
                         external: true,
                         to: 'https://modernize-vuejs.adminmart.com/auth/register'
                     },
@@ -1088,7 +1118,7 @@ const sidebarItem: menu[] = [
                         icon: PointIcon,
                         chip: 'Pro',
                         chipColor: 'primary',
-                       chipBgColor: 'lightprimary',
+                        chipBgColor: 'lightprimary',
                         external: true,
                         to: 'https://modernize-vuejs.adminmart.com/auth/register2'
                     }
@@ -1104,7 +1134,7 @@ const sidebarItem: menu[] = [
                         icon: PointIcon,
                         chip: 'Pro',
                         chipColor: 'primary',
-                       chipBgColor: 'lightprimary',
+                        chipBgColor: 'lightprimary',
                         external: true,
                         to: 'https://modernize-vuejs.adminmart.com/auth/forgot-password'
                     },
@@ -1113,7 +1143,7 @@ const sidebarItem: menu[] = [
                         icon: PointIcon,
                         chip: 'Pro',
                         chipColor: 'primary',
-                       chipBgColor: 'lightprimary',
+                        chipBgColor: 'lightprimary',
                         external: true,
                         to: 'https://modernize-vuejs.adminmart.com/auth/forgot-password2'
                     }
@@ -1129,7 +1159,7 @@ const sidebarItem: menu[] = [
                         icon: SettingsIcon,
                         chip: 'Pro',
                         chipColor: 'primary',
-                       chipBgColor: 'lightprimary',
+                        chipBgColor: 'lightprimary',
                         external: true,
                         to: 'https://modernize-vuejs.adminmart.com/auth/two-step'
                     },
@@ -1138,7 +1168,7 @@ const sidebarItem: menu[] = [
                         icon: SettingsIcon,
                         chip: 'Pro',
                         chipColor: 'primary',
-                       chipBgColor: 'lightprimary',
+                        chipBgColor: 'lightprimary',
                         external: true,
                         to: 'https://modernize-vuejs.adminmart.com/auth/two-step2'
                     }
@@ -1150,7 +1180,7 @@ const sidebarItem: menu[] = [
                 icon: AlertCircleIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 external: true,
                 to: 'https://modernize-vuejs.adminmart.com/auth/404'
             },
@@ -1159,7 +1189,7 @@ const sidebarItem: menu[] = [
                 icon: SettingsIcon,
                 chip: 'Pro',
                 chipColor: 'primary',
-               chipBgColor: 'lightprimary',
+                chipBgColor: 'lightprimary',
                 external: true,
                 to: 'https://modernize-vuejs.adminmart.com/auth/maintenance'
             }
@@ -1170,12 +1200,6 @@ const sidebarItem: menu[] = [
         title: 'Icons',
         icon: MoodHappyIcon,
         to: '/icons',
-        external: false
-    },
-    {
-        title: 'Sample Page',
-        icon: ApertureIcon,
-        to: '/sample-page',
         external: false
     }
 ];
