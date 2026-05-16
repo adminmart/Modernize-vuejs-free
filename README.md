@@ -13,7 +13,7 @@
 <p>Download most useful and comprehensive 🚀 Free Vue admin template built for developers 🛠</p>
 
 <a href="https://adminmart.com/product/modernize-free-vuetify-vue-js-admin-dashboard/?ref=56" target="_blank">
-  <img src="https://adminmart.com/wp-content/uploads/2023/02/modernize-free-vuetify-admin-dashboard-am-min1.png" alt="modernize free" width="564px" height="395px">
+  <img src="https://images.adminmart.com/templates/free/modernize/modernize-free-vuetify-admin-dashboard-am-min1.webp" alt="modernize free" width="564px" height="395px">
 </a>
 
 
@@ -118,7 +118,7 @@ The Pro Version of the **Modernize Vue js Admin Dashboard** comes packed with es
   </a>
 </div>
 
-[![Modernize Vue js Admin Dashboard Demo Screenshot](https://adminmart.com/wp-content/uploads/2023/02/modernize-vuetify-admin-dashboard-min.png)](https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?ref=56)
+[![Modernize Vue js Admin Dashboard Demo Screenshot](https://images.adminmart.com/templates/pro/modernize/modernize-vuetify-admin-dashboard-min.webp)](https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?ref=56)
 
 ---
 
@@ -171,17 +171,17 @@ The **Free Version** of the **Modernize Vue js Admin Dashboard** provides a soli
       <tr>
 	      <td>
 	        <a href="https://adminmart.com/product/modernize-tailwind-nextjs-dashboard-template/?ref=56" width="150px">
-             <img src="https://adminmart.com/wp-content/uploads/2024/03/Modernize-Nextjs-Tailwind-nextjs_sd.jpg" alt="Modernize Tailwind and Next.js Dashboard Template" style="max-width:140px;">
+             <img src="https://images.adminmart.com/templates/pro/modernize/Modernize-Nextjs-Tailwind-nextjs_updated.webp" alt="Modernize Tailwind and Next.js Dashboard Template" style="max-width:140px;">
            </a>
          </td>
          <td>
            <a href="https://adminmart.com/product/modernize-bootstrap-5-admin-template/?ref=56" width="150px">
-             <img src="https://adminmart.com/wp-content/uploads/2023/02/modernize-bootstrap-5-admin-template-min.png" alt="Modernize Bootstrap 5 Admin Template" style="max-width:140px;">
+             <img src="https://images.adminmart.com/templates/pro/modernize/modernize-bootstrap-5-admin-template-min.webp" alt="Modernize Bootstrap 5 Admin Template" style="max-width:140px;">
            </a>
          </td>
 	      <td>
 	        <a href="https://adminmart.com/product/modernize-next-js-admin-dashboard/?ref=56" width="150px">
-             <img src="https://adminmart.com/wp-content/uploads/2023/03/Modernize-Nextjs_withour_redux.jpg" alt="Modernize Next.js Dashboard Template" style="max-width:140px;">
+             <img src="https://images.adminmart.com/templates/pro/modernize/Modernize-Nextjs_withour_redux.webp" alt="Modernize Next.js Dashboard Template" style="max-width:140px;">
            </a>
          </td>
       </tr>
@@ -206,17 +206,17 @@ The **Free Version** of the **Modernize Vue js Admin Dashboard** provides a soli
       <tr>
          <td>
            <a href="https://adminmart.com/product/modernize-react-mui-dashboard-theme/?ref=56" width="150px">
-             <img src="https://adminmart.com/wp-content/uploads/2023/01/Modernize-React-MUI-19_new.jpg" alt="Modernize React MUI Dashboard Theme" style="max-width:150px;">
+             <img src="https://images.adminmart.com/templates/pro/modernize/Modernize-React-MUI-19_new.webp" alt="Modernize React MUI Dashboard Theme" style="max-width:150px;">
            </a>
          </td> 
          <td>
            <a href="https://adminmart.com/product/modernize-angular-material-dashboard/?ref=56" width="150px">
-             <img src="https://adminmart.com/wp-content/uploads/2023/04/modernize-angular-material-admin-dashboard-template-1-1.jpg" alt="Modernize Angular Material Dashboard" style="max-width:140px;">
+             <img src="https://images.adminmart.com/templates/pro/modernize/modernize-angular-material-admin-dashboard-template.webp" alt="Modernize Angular Material Dashboard" style="max-width:140px;">
            </a>
          </td>
          <td>
            <a href="https://adminmart.com/product/modernize-nuxt-js-admin-dashboard/?ref=56" width="150px">
-             <img src="https://adminmart.com/wp-content/uploads/2023/02/modernize-nuxt-js-admin-dashboard.png" alt="Modernize Nuxt Js Admin Dashboard" style="max-width:150px;">
+             <img src="https://images.adminmart.com/templates/pro/modernize/modernize-nuxt-js-admin-dashboard.webp" alt="Modernize Nuxt Js Admin Dashboard" style="max-width:150px;">
            </a>
          </td>
       </tr>
